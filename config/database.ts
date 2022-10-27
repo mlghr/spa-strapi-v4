@@ -7,7 +7,7 @@ export default ({ env }) => ({
       database: env('DATABASE_NAME', 'spa-strapi-v4'),
       user: env('DATABASE_USERNAME', 'mlghr'),
       password: env('DATABASE_PASSWORD', 'Leahcim12!'),
-      ssl: env.bool('DATABASE_SSL', true),
+      ssl: env.bool('DATABASE_SSL', false),
     },
   },
-});
+})
