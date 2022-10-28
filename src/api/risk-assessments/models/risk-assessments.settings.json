@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "risk_assessments",
+  "info": {
+    "name": "RiskAssessments",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
