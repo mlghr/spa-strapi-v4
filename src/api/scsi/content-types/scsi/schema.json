@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scsis",
+  "info": {
+    "singularName": "scsi",
+    "pluralName": "scsis",
+    "displayName": "Scsi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

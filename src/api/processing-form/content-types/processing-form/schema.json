@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "processing-forms",
+  "info": {
+    "singularName": "processing-form",
+    "pluralName": "processing-forms",
+    "displayName": "Processing-forms"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
