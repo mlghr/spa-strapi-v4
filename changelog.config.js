@@ -2,9 +2,9 @@ module.exports = {
   disableEmoji: false,
   format: '{type}{scope}: {emoji}{subject}',
   list: [
-    'test',
     'feat',
     'fix',
+    'test',
     'chore',
     'docs',
     'refactor',
@@ -12,8 +12,8 @@ module.exports = {
     'ci',
     'perf',
   ],
-  maxMessageLength: 64,
-  minMessageLength: 3,
+  maxMessageLength: 100,
+  minMessageLength: 1,
   questions: [
     'type',
     'scope',
