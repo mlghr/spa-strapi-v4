@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/routes/<router-name>.js
+/**
+ * processing-form router
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter(
-  'api::processing-forms.processing-forms',
-)
+export default factories.createCoreRouter('api::processing-form.processing-form');

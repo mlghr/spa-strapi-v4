@@ -1,17 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "current-issues",
+  "collectionName": "current_issues",
   "info": {
     "singularName": "current-issue",
     "pluralName": "current-issues",
-    "displayName": "Current-issues"
+    "displayName": "Current Issue"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

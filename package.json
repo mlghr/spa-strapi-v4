@@ -8,19 +8,21 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
+    "gen": "strapi generate",
     "commit": "git cz"
   },
   "devDependencies": {
     "git-cz": "^4.9.0"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
     "@strapi/plugin-i18n": "4.4.5",
     "@strapi/plugin-users-permissions": "4.4.5",
     "@strapi/strapi": "4.4.5",
     "pg": "8.6.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Michael Rosenbaum"
   },
   "strapi": {
     "uuid": "4bc376dc-77be-44a5-9ff5-4cfb18afed71"

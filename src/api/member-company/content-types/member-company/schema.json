@@ -1,20 +1,18 @@
 {
   "kind": "collectionType",
-  "collectionName": "member-companies",
+  "collectionName": "member_companies",
   "info": {
     "singularName": "member-company",
     "pluralName": "member-companies",
-    "displayName": "member-companies"
+    "displayName": "Member Company"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

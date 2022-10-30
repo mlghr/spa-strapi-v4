@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/services/<service-name>.js
+/**
+ * member-company service
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreService(
-  'api::member-companies.member-companies',
-)
+export default factories.createCoreService('api::member-company.member-company');

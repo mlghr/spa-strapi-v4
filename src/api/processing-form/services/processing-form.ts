@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/services/<service-name>.js
+/**
+ * processing-form service
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreService(
-  'api::processing-forms.processing-forms',
-)
+export default factories.createCoreService('api::processing-form.processing-form');

@@ -4,14 +4,12 @@
   "info": {
     "singularName": "scsi",
     "pluralName": "scsis",
-    "displayName": "Scsi"
+    "displayName": "SCSI"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

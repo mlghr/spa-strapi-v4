@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/services/<service-name>.js
+/**
+ * risk-assessment service
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreService(
-  'api::risk-assessments.risk-assessments',
-)
+export default factories.createCoreService('api::risk-assessment.risk-assessment');

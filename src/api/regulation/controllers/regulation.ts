@@ -1,5 +1,7 @@
-// path: ./src/api/<content-type-name>/controllers/<controller-name>.js
+/**
+ * regulation controller
+ */
 
 import { factories } from '@strapi/strapi'
 
-export default factories.createCoreController('api::regulations.regulations')
+export default factories.createCoreController('api::regulation.regulation');

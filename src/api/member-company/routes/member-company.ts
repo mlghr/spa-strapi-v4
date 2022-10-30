@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/routes/<router-name>.js
+/**
+ * member-company router
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter(
-  'api::member-companies.member-companies',
-)
+export default factories.createCoreRouter('api::member-company.member-company');

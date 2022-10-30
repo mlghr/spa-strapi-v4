@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/controllers/<controller-name>.js
+/**
+ * processing-form controller
+ */
 
 import { factories } from '@strapi/strapi'
 
-export default factories.createCoreController(
-  'api::processing-forms.processing-forms',
-)
+export default factories.createCoreController('api::processing-form.processing-form');

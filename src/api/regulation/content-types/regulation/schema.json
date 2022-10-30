@@ -4,14 +4,12 @@
   "info": {
     "singularName": "regulation",
     "pluralName": "regulations",
-    "displayName": "Regulations"
+    "displayName": "Regulation"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

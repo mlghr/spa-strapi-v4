@@ -1,5 +1,7 @@
-// path: ./src/api/<content-type-name>/routes/<router-name>.js
+/**
+ * current-issue router
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter('api::current-issues.current-issues')
+export default factories.createCoreRouter('api::current-issue.current-issue');

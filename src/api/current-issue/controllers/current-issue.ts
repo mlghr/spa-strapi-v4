@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/controllers/<controller-name>.js
+/**
+ * current-issue controller
+ */
 
 import { factories } from '@strapi/strapi'
 
-export default factories.createCoreController(
-  'api::current-issues.current-issues',
-)
+export default factories.createCoreController('api::current-issue.current-issue');

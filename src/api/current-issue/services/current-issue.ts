@@ -1,5 +1,7 @@
-// path: ./src/api/<content-type-name>/services/<service-name>.js
+/**
+ * current-issue service
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreService('api::current-issues.current-issues')
+export default factories.createCoreService('api::current-issue.current-issue');

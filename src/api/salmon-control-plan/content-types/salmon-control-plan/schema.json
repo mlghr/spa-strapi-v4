@@ -1,17 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "salmon-control-plans",
+  "collectionName": "salmon_control_plans",
   "info": {
     "singularName": "salmon-control-plan",
     "pluralName": "salmon-control-plans",
-    "displayName": "Salmon-control-plans"
+    "displayName": "Salmon Control Plan"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

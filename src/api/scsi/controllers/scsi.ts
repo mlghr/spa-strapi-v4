@@ -1,5 +1,7 @@
-// path: ./src/api/<content-type-name>/controllers/<controller-name>.js
+/**
+ * scsi controller
+ */
 
 import { factories } from '@strapi/strapi'
 
-export default factories.createCoreController('api::scsi.scsi')
+export default factories.createCoreController('api::scsi.scsi');

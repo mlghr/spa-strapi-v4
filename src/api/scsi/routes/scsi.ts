@@ -1,5 +1,7 @@
-// path: ./src/api/<content-type-name>/routes/<router-name>.js
+/**
+ * scsi router
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter('api::scsi.scsi')
+export default factories.createCoreRouter('api::scsi.scsi');

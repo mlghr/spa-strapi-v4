@@ -1,17 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "risk-assessments",
+  "collectionName": "risk_assessments",
   "info": {
     "singularName": "risk-assessment",
     "pluralName": "risk-assessments",
-    "displayName": "Risk-assessments"
+    "displayName": "Risk Assessment"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

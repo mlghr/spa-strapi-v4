@@ -4,14 +4,12 @@
   "info": {
     "singularName": "update",
     "pluralName": "updates",
-    "displayName": "Updates"
+    "displayName": "Update"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

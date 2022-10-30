@@ -4,14 +4,12 @@
   "info": {
     "singularName": "resource",
     "pluralName": "resources",
-    "displayName": "Resources"
+    "displayName": "Resource"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": false,
+    "comment": ""
   },
-  "pluginOptions": {},
   "attributes": {
     "description": {
       "type": "richtext"

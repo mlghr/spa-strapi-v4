@@ -1,7 +1,7 @@
-// path: ./src/api/<content-type-name>/routes/<router-name>.js
+/**
+ * salmon-control-plan router
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter(
-  'api::salmon-control-plan.salmon-control-plan',
-)
+export default factories.createCoreRouter('api::salmon-control-plan.salmon-control-plan');

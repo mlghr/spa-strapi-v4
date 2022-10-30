@@ -4,9 +4,11 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "Abouts"
+    "displayName": "About"
   },
   "options": {
+    "increments": true,
+    "timestamps": true,
     "draftAndPublish": false
   },
   "pluginOptions": {},

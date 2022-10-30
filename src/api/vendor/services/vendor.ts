@@ -1,5 +1,7 @@
-// path: ./src/api/<content-type-name>/services/<service-name>.js
+/**
+ * vendor service
+ */
 
-import { factories } from '@strapi/strapi'
+import { factories } from '@strapi/strapi';
 
-export default factories.createCoreService('api::vendors.vendors')
+export default factories.createCoreService('api::vendor.vendor');
