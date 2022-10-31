@@ -18,6 +18,7 @@
     "@_sh/strapi-plugin-ckeditor": "^1.1.2",
     "@strapi/plugin-i18n": "4.4.5",
     "@strapi/plugin-users-permissions": "4.4.5",
+    "@strapi/provider-email-sendgrid": "^4.4.5",
     "@strapi/strapi": "4.4.5",
     "pg": "8.6.0"
   },
